@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Television.Models", "Television.Models", "{76187FA0-BDEA-46DD-BDBE-3A8A45187A60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Television.Models.NET", "Television.Models.NET\Television.Models.NET.csproj", "{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Television.UnitTests", "Television.UnitTests", "{441F9701-D794-4E2D-BFCF-6D755B495483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Television.UnitTests.NET", "Television.UnitTests.NET\Television.UnitTests.NET.csproj", "{98F56FBB-2EEE-469A-B601-50BA3EC125F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC2D6D50-2B62-4B71-989B-C4778E0C8072}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Television.vsmdi = Television.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Television.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E}.Release|x86.ActiveCfg = Release|Any CPU
+		{98F56FBB-2EEE-469A-B601-50BA3EC125F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F56FBB-2EEE-469A-B601-50BA3EC125F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F56FBB-2EEE-469A-B601-50BA3EC125F7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{98F56FBB-2EEE-469A-B601-50BA3EC125F7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{98F56FBB-2EEE-469A-B601-50BA3EC125F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{98F56FBB-2EEE-469A-B601-50BA3EC125F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F56FBB-2EEE-469A-B601-50BA3EC125F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F56FBB-2EEE-469A-B601-50BA3EC125F7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{98F56FBB-2EEE-469A-B601-50BA3EC125F7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{98F56FBB-2EEE-469A-B601-50BA3EC125F7}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE0DFE57-4DD2-40BA-8E13-86BEDE1E366E} = {76187FA0-BDEA-46DD-BDBE-3A8A45187A60}
+		{98F56FBB-2EEE-469A-B601-50BA3EC125F7} = {441F9701-D794-4E2D-BFCF-6D755B495483}
+		{FC2D6D50-2B62-4B71-989B-C4778E0C8072} = {441F9701-D794-4E2D-BFCF-6D755B495483}
+	EndGlobalSection
+EndGlobal
